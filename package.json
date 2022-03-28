@@ -1,0 +1,31 @@
+{
+  "name": "pervasivemind-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jorge-carcamo/pervasivemind-challenge.git",
+  "author": "Jorge Carcamo <j.carcamo.bustamante@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cli": "ts-node src/cli.ts",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist build",
+    "ts-node": "ts-node",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "esbuild": "^0.14.28",
+    "eslint": "^8.12.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "prettier": "^2.3.2"
+  }
+}
