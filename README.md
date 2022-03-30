@@ -9,37 +9,37 @@ rango1 = (a1 , b1) & rango2 = (a2, b2) donde a1 < a2
 bool overlap = b1 > a2;
 
 rango1---------|---|<br />
-rango2---|---|                > falso (implica ordenar los rangos)
+rango2---|---|                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> falso (implica ordenar los rangos)
 
 rango1-------|---|<br />
-rango2---|---|                > falso (implica ordenar los rangos)
+rango2---|---|                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> falso (implica ordenar los rangos)
 
 rango1------|---|<br />
-rango2---|---|                > verdadero (implica ordenar los rangos)
+rango2---|---|                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> verdadero (implica ordenar los rangos)
 
 rango1---|---|<br />
-rango2---|--|                 > verdadero
+rango2---|--|                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> verdadero
 
 rango1----|---|<br />
-rango2---|-----|              > verdadero (implica ordenar los rangos)
+rango2---|-----|              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> verdadero (implica ordenar los rangos)
 
 rango1---|---|<br />
-rango2----|-|                 > verdadero
+rango2----|-|                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> verdadero
 
 rango1---|---|<br />
-rango2----|--|                > verdadero
+rango2----|--|                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> verdadero
 
 rango1---|---|<br />
-rango2---|---|                > verdadero
+rango2---|---|                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> verdadero
 
 rango1---|---|<br />
-rango2----|---|               > verdadero
+rango2----|---|               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> verdadero
 
 rango1---|---|<br />
-rango2-------|---|            > falso
+rango2-------|---|            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> falso
 
 rango1---|---|<br />
-rango2--------|---|           > falso
+rango2--------|---|           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> falso
 
 
 Esta idea la apliqué al problema:
@@ -57,7 +57,7 @@ rango4------------------|---|<br />
 rango5--------------------|---|<br />
 rango6---------------------------|---|<br />
 
-result&nbsp;&nbsp;------|--------|--|-----|--|---|<br />
+result&nbsp;&nbsp;&nbsp;------|--------|--|-----|--|---|<br />
 
 Rango 1,2 y 3 se mezclan, al igual que rango 4 y 5.
 
