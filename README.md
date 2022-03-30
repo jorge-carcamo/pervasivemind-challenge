@@ -8,37 +8,37 @@ rango1 = (a1 , b1) & rango2 = (a2, b2) donde a1 < a2
 
 bool overlap = b1 > a2;
 
-rango1---------|---|
+rango1---------|---|<br />
 rango2---|---|                > falso (implica ordenar los rangos)
 
-rango1-------|---|
+rango1-------|---|<br />
 rango2---|---|                > falso (implica ordenar los rangos)
 
-rango1------|---|
+rango1------|---|<br />
 rango2---|---|                > verdadero (implica ordenar los rangos)
 
-rango1---|---|
+rango1---|---|<br />
 rango2---|--|                 > verdadero
 
-rango1----|---|
+rango1----|---|<br />
 rango2---|-----|              > verdadero (implica ordenar los rangos)
 
-rango1---|---|
+rango1---|---|<br />
 rango2----|-|                 > verdadero
 
-rango1---|---|
+rango1---|---|<br />
 rango2----|--|                > verdadero
 
-rango1---|---|
+rango1---|---|<br />
 rango2---|---|                > verdadero
 
-rango1---|---|
+rango1---|---|<br />
 rango2----|---|               > verdadero
 
-rango1---|---|
+rango1---|---|<br />
 rango2-------|---|            > falso
 
-rango1---|---|
+rango1---|---|<br />
 rango2--------|---|           > falso
 
 
@@ -50,14 +50,14 @@ Esta idea la apliqué al problema:
 3.- Si se solapan las tuplas, guardo la tupla resultante de mezclar ambas, es decir, modifico el indice superior con el valor máximo de ambas tuplas
 4.- Si no se solapan las tuplas, guardo la siguiente tupla tal como está
 
-rango1------|---|
-rango2---------|---|
-rango3-----------|---|
-rango4------------------|---|
-rango5--------------------|---|
-rango6---------------------------|---|
+rango1------|---|<br />
+rango2---------|---|<br />
+rango3-----------|---|<br />
+rango4------------------|---|<br />
+rango5--------------------|---|<br />
+rango6---------------------------|---|<br />
 
-result------|--------|--|-----|--|---|
+result------|--------|--|-----|--|---|<br />
 
 Rango 1,2 y 3 se mezclan, al igual que rango 4 y 5.
 
