@@ -61,7 +61,7 @@ result&nbsp;&nbsp;&nbsp;------|--------|--|-----|--|---|<br />
 
 Rango 1,2 y 3 se mezclan, al igual que rango 4 y 5.
 
-Si asumimos que ordenamos las tuplas con QuickSort O(n log n) o BubbleSort O(n), la funcion que agrupas las tuplas solapadas en general queda de complejidad lineal O(n).
+Si asumimos que ordenamos las tuplas con QuickSort O(n log n) o BubbleSort O(n), la funcion que agrupa las tuplas solapadas en general queda de complejidad lineal O(n).
 
 ## Instalar dependencias
 ```yarn```
