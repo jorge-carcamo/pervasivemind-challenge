@@ -51,10 +51,10 @@ Esta idea la apliqué al problema:
 4.- Si no se solapan las tuplas, guardo la siguiente tupla tal como está
 
 rango1------|---|
-rango2---------|---|   
-rango3-----------|---|   
-rango4------------------|---|   
-rango5--------------------|---|   
+rango2---------|---|
+rango3-----------|---|
+rango4------------------|---|
+rango5--------------------|---|
 rango6---------------------------|---|
 
 result------|--------|--|-----|--|---|
