@@ -44,11 +44,11 @@ rango2--------|---|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>
 
 Esta idea la apliqué al problema:
 
-1.- Ordenar las tuplas por el indice inferior de forma creciente
-2.- Crear un arreglo auxiliar para guardar las tuplas que se solapen
-3.- Comparar las tuplas de entrada de la posición n con la (n-1)
-3.- Si se solapan las tuplas, guardo la tupla resultante de mezclar ambas, es decir, modifico el indice superior con el valor máximo de ambas tuplas
-4.- Si no se solapan las tuplas, guardo la siguiente tupla tal como está
+1.- Ordenar las tuplas por el indice inferior de forma creciente<br />
+2.- Crear un arreglo auxiliar para guardar las tuplas que se solapen<br />
+3.- Comparar las tuplas de entrada de la posición n con la (n-1)<br />
+3.- Si se solapan las tuplas, guardo la tupla resultante de mezclar ambas, es decir, modifico el indice superior con el valor máximo de ambas tuplas<br />
+4.- Si no se solapan las tuplas, guardo la siguiente tupla tal como está<br />
 
 rango1------|---|<br />
 rango2---------|---|<br />
