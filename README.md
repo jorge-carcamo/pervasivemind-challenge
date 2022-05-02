@@ -1,12 +1,12 @@
 ## Explanation
 
-For the algorithm to work, the ranges must be ordered by the lower index.
+For the algorithm to work, the **ranges must be ordered by the lower index**.
 
 
-range1 = (a1 , b1) & range2 = (a2, b2) where a1 < a2
+**range1 = (a1 , b1) & range2 = (a2, b2) where a1 < a2**
 
 
-bool overlap = b1 > a2;
+**bool overlap = b1 > a2**
 
 range1---------|---|<br />
 range2---|---|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> false (ranges must be sorted)
@@ -61,7 +61,7 @@ result&nbsp;&nbsp;&nbsp;------|--------|--|-----|--|---|<br />
 
 Ranges 1,2 y 3 are merged, same as ranges 4 y 5.
 
-If we assume that we sort the tuples with QuickSort O(n log n) or BubbleSort O(n), the function that groups the overlapping tuples in general is of linear complexity O(n).
+If we assume that we sort the tuples with **QuickSort O(n log n)** or **BubbleSort O(n)**, the function that groups the overlapping tuples in general is of linear complexity **O(n)**.
 
 ## Install dependencies
 ```yarn```
